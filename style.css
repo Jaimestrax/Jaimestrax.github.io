@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li{
+  float:left;
+}
+#menu a{
+  color: white;
+  background: black;
+  text-decoration: none;
+  display:block;
+  padding: 12px 28px;
+  font-family: Courier;
+}
+#menu a:hover{
+  color: black;
+  background: #c6f255;
+  animation:1s ms 1;
+}
+@keyframes ms{
+  0%{
+    opacity: 0;
+    transform:scale (1.6);
+  }
+}
+body {
+  background: #46cf74;
+}
+#fondo1 {
+  border: 3px solid black;
+  padding: 10px;
+  background-image: url(https://www.thenewarttime.com/wp-content/uploads/2021/04/astronauta-con-birra.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1103px;
+}
+#frase {
+  background: #6efa81;
+  opacity:0.9;
+  text-align: center;
+  width: 580px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.t1{
+  background: #f5faf5;
+  color: #35bdc4;
+  font-family: 'Kalam', cursive;
+}
+.t2{
+  background: #74d4bf;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: #171d26;
+}
+.texto{
+  text-align: left;
+  text-align: justify;
+  color: #dcf5f7;
+  font-family: Courier;
+}
+.portin {
+   display:block;
+   margin:auto;
+   width:380px;  
+   height:250px;
+   padding:2px;
+}
+.logo{
+  float: right;
+  width:210px;  
+  height:155px;
+  padding:5px;
+}
+.contac{
+  text-align: center;
+  color: #dcf5f7;
+  font-family: 'Courgette', cursive;
+}
+.portmedia {
+  border: 5px solid black; 
+  display:block;
+   margin:auto;
+   width:950px;  
+   height:520px;
+   padding:2px;
+}
+.catalogo{
+  margin: 5px 5px;
+  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+  float: left;
+  width: 235px;
+}
+.catalogo img{
+  width: 120px;
+  height: 165px;
+}
+.pie{
+  text-aligne: center;
+  color: #6feb46;
+  font-family: Courier;
+  test-shadow: 2px 2px 5px purple;
+  padding: 5px;
+  cursor: pointer;
+}
+.formulario{
+  display:block;
+   margin:auto;
+  background: #88dba9;
+  text-align: center;
+  width:500px;  
+   height:200px;
+  pading: 2px;
+}
+.button{
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
